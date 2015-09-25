@@ -312,7 +312,8 @@ body {
   box-sizing: border-box;
 }
 #editor-box h3 {
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
 }
 #button-container {
   position: absolute;
@@ -353,13 +354,14 @@ button#button-close {
   text-shadow: none;
   border-color: #333;
   color: #fff;
+  margin-top: 30px;
 }
 #button-share {
   display: none;
   float: left;
   width: calc(100% - 100px);
-  background: #FF0455;
-  text-shadow: 0 0 1px #F00;
+  background: rgba(0,0,0,0);
+  margin-bottom: 60px;
 }
 #button-submit {
   float: left;
@@ -372,6 +374,7 @@ button#button-close {
 }
 #editor-box.submitted textarea {
   border: none;
+  font-weight:bolder;
 }
 textarea + p {
   display: none;
